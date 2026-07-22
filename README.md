@@ -1,16 +1,153 @@
-# React + Vite
+# 👥 React User Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive React application that fetches user information from a public API and displays it using reusable React components.
 
-Currently, two official plugins are available:
+This project was built as part of a React learning assignment to understand how to fetch data from an API, manage state with React Hooks, and render dynamic content using reusable components. It demonstrates the core concepts of React while keeping the UI clean, responsive, and easy to understand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌐 **Netlify:** *Add your deployed URL here*
 
-## Expanding the Oxlint configuration
+## 💻 GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+🔗 *Add your GitHub repository link here*
+
+---
+
+## 📖 Project Overview
+
+The application fetches user data from the **JSONPlaceholder** API when the page loads. The data is stored using React's `useState` hook and displayed through reusable **UserCard** components.
+
+To improve the user experience, the application also includes loading and error handling while fetching data. The layout is fully responsive, making it accessible across desktops, tablets, and mobile devices.
+
+---
+
+## ✨ Features
+
+- Fetches user data from a public REST API
+- Uses React Hooks (`useState` and `useEffect`)
+- Displays user information dynamically
+- Reusable UserCard component
+- Loading state while fetching data
+- Error handling for failed API requests
+- Responsive UI for all screen sizes
+- Clean and organized project structure
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- JSX
+- CSS3
+- Vite
+- Fetch API
+
+---
+
+## 📡 API Used
+
+**JSONPlaceholder Users API**
+
+https://jsonplaceholder.typicode.com/users
+
+The API provides sample user information including:
+
+- Name
+- Email
+- Phone
+- Address
+- Company
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│── components/
+│   └── Card/
+│       ├── Card.jsx
+│       └── Card.css
+│
+│── App.jsx
+│── App.css
+│── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd your-repository-name
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me gain hands-on experience with:
+
+- Fetching API data in React
+- Using `useEffect()` for side effects
+- Managing state with `useState()`
+- Rendering lists using the `map()` method
+- Passing data through props
+- Creating reusable React components
+- Handling loading and error states
+- Building responsive layouts with CSS
+
+---
+
+## 🔮 Future Enhancements
+
+- 🔍 Search users by name
+- 🏙️ Filter users by city
+- 📄 Pagination
+- 🌙 Dark mode
+- 👤 Detailed user profile page
+- ✨ Smooth animations and transitions
+
+---
+
+## 🙌 Acknowledgements
+
+- **JSONPlaceholder** for providing a free REST API for practice.
+- **React Documentation** for learning React fundamentals.
+- This project was developed as part of a React assignment to strengthen practical knowledge of React Hooks, API integration, and component-based development.
+
+---
+
+## 📜 License
+
+This project is created for educational purposes and is free to use.
