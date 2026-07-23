@@ -8,11 +8,11 @@ This project was built as part of a React learning assignment to understand how 
 
 ## 🚀 Live Demo
 
-🌐 **Netlify:** *Add your deployed URL here*
+🌐 **Vercel:** *https://user-card-display.vercel.app/*
 
 ## 💻 GitHub Repository
 
-🔗 *Add your GitHub repository link here*
+🔗 *https://github.com/ramkishore20/User-Card-Display*
 
 ---
 
